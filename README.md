@@ -1,7 +1,6 @@
 # AddressSaveUserDefaults
 
-yfyut
-
+The application uses User Defaults to save addresses
 
 - User Defaults
 - UIKit
