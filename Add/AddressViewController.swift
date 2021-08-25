@@ -45,4 +45,13 @@ extension AddressViewController: UITableViewDelegate, UITableViewDataSource {
         cell.textLabel?.text = Base.shared.address[indexPath.row].name
         return cell
     }
+    
+     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            
+            Base.shared.address.remove(at: indexPath.row)
+            tableView.reloadData()
+        } else if editingStyle == .insert {
+          
+    }
 }
