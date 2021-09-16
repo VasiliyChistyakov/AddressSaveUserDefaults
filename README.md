@@ -1,6 +1,6 @@
 # AddressSaveUserDefaults
 
-Приложение сохраняет введенные данные адреса с использованием UserDefaults.
+Приложение сохраняет введенные данные адреса в таблицу с использованием UserDefaults.
 
 - User Defaults
 - UIKit
